@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
+        android:textColor="@color/black"
         android:id="@+id/txtstt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -10,6 +11,8 @@
         android:gravity="center"
         android:text="1"/>
     <TextView
+        android:textColor="@color/black"
+
         android:id="@+id/txtname"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -17,6 +20,8 @@
         android:gravity="center"
         android:text="Named"/>
     <TextView
+        android:textColor="@color/black"
+
         android:id="@+id/txtCMND"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -24,6 +29,8 @@
         android:gravity="center"
         android:text="CMND"/>
     <TextView
+        android:textColor="@color/black"
+
         android:id="@+id/txtdegre"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -31,6 +38,8 @@
         android:gravity="center"
         android:text="Bằng cấp"/>
     <TextView
+        android:textColor="@color/black"
+
         android:id="@+id/txtlike"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

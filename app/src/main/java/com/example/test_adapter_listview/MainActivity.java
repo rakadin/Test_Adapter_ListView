@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 b.setPositiveButton("Hủy", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        finish(); // huy dialog
+                        dialogInterface.cancel(); // huy dialog
                     }
                 });
                 b.setNegativeButton("Đồng ý", new DialogInterface.OnClickListener() {

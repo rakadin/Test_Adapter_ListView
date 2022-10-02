@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Test_Adapter_ListView/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Test_Adapter_ListView/app/src/main/res/drawable/gradient.xml" value="0.1" />
+        <entry key="..\:/Test_Adapter_ListView/app/src/main/res/drawable/gradient_2.xml" value="0.1185" />
+        <entry key="..\:/Test_Adapter_ListView/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Test_Adapter_ListView/app/src/main/res/layout/gradient.xml" value="0.275" />
         <entry key="..\:/Test_Adapter_ListView/app/src/main/res/layout/list_items_view.xml" value="0.264" />
       </map>
     </option>

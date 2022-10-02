@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TableLayout
+        android:background="@drawable/gradient_2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TableRow android:gravity="center">
@@ -51,18 +52,21 @@
             android:gravity="center"
             android:layout_width="match_parent">
             <RadioButton
+                android:buttonTint="#D30C0C"
                 android:layout_width="wrap_content"
                 android:layout_height="25dp"
                 android:text="Trung cấp"
                 android:id="@+id/rdb1"
                 android:textSize="15dp"/>
             <RadioButton
+                android:buttonTint="#D30C0C"
                 android:layout_width="wrap_content"
                 android:layout_height="25dp"
                 android:text="Cao đẳng"
                 android:id="@+id/rdb2"
                 android:textSize="15dp"/>
             <RadioButton
+                android:buttonTint="#D30C0C"
                 android:layout_width="wrap_content"
                 android:layout_height="25dp"
                 android:text="Đại học"
@@ -76,18 +80,21 @@
         <LinearLayout android:orientation="horizontal"
             android:gravity="center">
             <CheckBox
+                android:buttonTint="#D30C0C"
                 android:textSize="15dp"
                 android:text="Đọc sách"
                 android:id="@+id/chk1"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"/>
             <CheckBox
+                android:buttonTint="#D30C0C"
                 android:textSize="15dp"
                 android:text="Đọc báo"
                 android:id="@+id/chk2"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"/>
             <CheckBox
+                android:buttonTint="#D30C0C"
                 android:textSize="15dp"
                 android:text="Đọc code"
                 android:id="@+id/chk3"
@@ -105,7 +112,7 @@
             android:id="@+id/lvPerson"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"/>
+            android:background="@drawable/gradient"/>
     </TableLayout>
 
 
