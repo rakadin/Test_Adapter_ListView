@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow android:gravity="center">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin cá nhân"
+                android:textSize="25dp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Họ tên"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20dp"/>
+
+            <EditText android:layout_width="200dp"
+                android:id="@+id/nameInsert"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="CMND"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:textSize="20dp"/>
+
+            <EditText android:layout_width="200dp"
+                    android:id="@+id/CMND"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="20dp"
+                android:text="Bằng cấp"/>
+        </TableRow>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Trung cấp"
+                android:id="@+id/rdb1"
+                android:textSize="15dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Cao đẳng"
+                android:id="@+id/rdb2"
+                android:textSize="15dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Đại học"
+                android:id="@+id/rdb3"
+                android:textSize="15dp"/>
+        </RadioGroup>
+        <TableRow>
+            <TextView android:textSize="20dp"
+                android:text="Sở thích"/>
+        </TableRow>
+        <LinearLayout android:orientation="horizontal"
+            android:gravity="center">
+            <CheckBox
+                android:textSize="15dp"
+                android:text="Đọc sách"
+                android:id="@+id/chk1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <CheckBox
+                android:textSize="15dp"
+                android:text="Đọc báo"
+                android:id="@+id/chk2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <CheckBox
+                android:textSize="15dp"
+                android:text="Đọc code"
+                android:id="@+id/chk3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+        <Button android:layout_height="55dp"
+            android:layout_width="75dp"
+            android:text="Nhập dữ liệu"
+            android:id="@+id/sentBut"/>
+        <Spinner android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <ListView
+            android:id="@+id/lvPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200"/>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
